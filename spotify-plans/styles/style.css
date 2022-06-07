@@ -1,0 +1,14 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+.image-container {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.image-container-2 {
+    background-image: url("assets/ili.jpg");
+    max-width: 100vw;
+    overflow-x: hidden;
+}
