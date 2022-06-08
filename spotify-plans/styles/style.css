@@ -7,6 +7,9 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+main {
+    background-color: #efefef;
+}
 h1 {
     text-align: center;
 }
@@ -15,9 +18,34 @@ p {
 }
 .container-cards {
     display: flex;
-
+    justify-content: center;
 } 
-span {
-    background-color: blue;
-    color: white;
+.card {
+    border: 2px solid #1C6EA4;
+    height: 500px;
+    margin: 20px 10px;
+    border-radius: 3%;
+    padding: 20px;
+    
 }
+.card span:first-child {
+    background-color: rgb(46, 119, 208);
+    padding: 5px;
+    color: white; 
+    border-radius: 5px;
+    width: 70%;
+    text-align: center;
+}
+.pay-span {
+    border: 3px solid #1C6EA4;
+    padding: 3px;
+}
+.block {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+
+
